@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		238DFC6B27E1218C007EE445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DFC6A27E1218C007EE445 /* AppDelegate.swift */; };
 		238DFC6D27E1218C007EE445 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DFC6C27E1218C007EE445 /* SceneDelegate.swift */; };
-		238DFC6F27E1218C007EE445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DFC6E27E1218C007EE445 /* ViewController.swift */; };
-		238DFC7227E1218C007EE445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DFC7027E1218C007EE445 /* Main.storyboard */; };
 		238DFC7427E1218D007EE445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238DFC7327E1218D007EE445 /* Assets.xcassets */; };
 		238DFC7727E1218D007EE445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DFC7527E1218D007EE445 /* LaunchScreen.storyboard */; };
+		238DFC8027E1227A007EE445 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DFC7E27E1227A007EE445 /* CameraPreviewView.swift */; };
+		238DFC8127E1227A007EE445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DFC7F27E1227A007EE445 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		238DFC6727E1218C007EE445 /* DualCameraToy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualCameraToy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238DFC6A27E1218C007EE445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238DFC6C27E1218C007EE445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		238DFC6E27E1218C007EE445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		238DFC7127E1218C007EE445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		238DFC7327E1218D007EE445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238DFC7627E1218D007EE445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		238DFC7827E1218D007EE445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238DFC7E27E1227A007EE445 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		238DFC7F27E1227A007EE445 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Desktop/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				238DFC6A27E1218C007EE445 /* AppDelegate.swift */,
 				238DFC6C27E1218C007EE445 /* SceneDelegate.swift */,
-				238DFC6E27E1218C007EE445 /* ViewController.swift */,
-				238DFC7027E1218C007EE445 /* Main.storyboard */,
+				238DFC7E27E1227A007EE445 /* CameraPreviewView.swift */,
+				238DFC7F27E1227A007EE445 /* ViewController.swift */,
 				238DFC7327E1218D007EE445 /* Assets.xcassets */,
 				238DFC7527E1218D007EE445 /* LaunchScreen.storyboard */,
 				238DFC7827E1218D007EE445 /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				238DFC7727E1218D007EE445 /* LaunchScreen.storyboard in Resources */,
 				238DFC7427E1218D007EE445 /* Assets.xcassets in Resources */,
-				238DFC7227E1218C007EE445 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				238DFC6F27E1218C007EE445 /* ViewController.swift in Sources */,
+				238DFC8127E1227A007EE445 /* ViewController.swift in Sources */,
+				238DFC8027E1227A007EE445 /* CameraPreviewView.swift in Sources */,
 				238DFC6B27E1218C007EE445 /* AppDelegate.swift in Sources */,
 				238DFC6D27E1218C007EE445 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		238DFC7027E1218C007EE445 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				238DFC7127E1218C007EE445 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		238DFC7527E1218D007EE445 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +281,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 338SXTLBRV;
+				DEVELOPMENT_TEAM = BJ3Z2U35QT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DualCameraToy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +297,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +308,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 338SXTLBRV;
+				DEVELOPMENT_TEAM = BJ3Z2U35QT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DualCameraToy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +324,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
